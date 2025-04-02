@@ -1,0 +1,568 @@
+<body>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Braid Inspirations - Arte Ancestral </title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos globais */
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        a {
+            transition: all 0.3s ease;
+        }
+        
+        /* Efeito hover para links de navegação */
+        nav ul li a:hover span {
+            width: 100% !important;
+        }
+        
+        /* Botões */
+        .botao:hover {
+            transform: translateY(-3px) !important;
+            box-shadow: 0 5px 15px rgba(232, 168, 124, 0.4) !important;
+        }
+        
+        /* Cards de inspiração */
+        article {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        article:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(94, 42, 42, 0.15) !important;
+        }
+        
+        /* Responsividade */
+        @media (max-width: 768px) {
+            header div {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            nav ul {
+                margin-top: 1rem;
+                flex-direction: column;
+                gap: 1rem !important;
+            }
+            
+            .hero h2 {
+                font-size: 1.8rem !important;
+            }
+        }
+    </style>
+</head>
+
+  
+    <!-- Cabeçalho Cultural -->
+    <header style="background: linear-gradient(to right, #5E2A2A, #E8A87C); padding: 1.5rem; color: white; position: sticky; top: 0; z-index: 100;">
+      <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+        <!-- Logo/Título com identidade -->
+        <h1 style="margin: 0; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 2rem;">
+          <span style="display: inline-block; transform: rotate(-15deg);"> </span>
+          Braids Inspirations  
+          <span style="font-size: 0.8em; display: block; font-weight: 400; font-style: arial;"> Arte Ancestral </span>
+        </h1>
+        
+        <!-- Navegação estilizada -->
+        <nav aria-label="Navegação principal" style="font-family: 'Poppins', sans-serif;">
+          <ul style="display: flex; gap: 2rem; list-style: none; margin: 0; padding: 0;">
+            <li><a href="#inicio" style="color: white; text-decoration: none; font-weight: 500; position: relative; padding-bottom: 5px;">
+              Início <span style="position: absolute; bottom: 0; left: 0; width: 0%; height: 2px; background: white; transition: width 0.3s;"></span>
+              </a></li>
+            <li><a href="#sobre" style="color: white; text-decoration: none; font-weight: 500; position: relative; padding-bottom: 5px;">
+              História <span style="position: absolute; bottom: 0; left: 0; width: 0%; height: 2px; background: white; transition: width 0.3s;"></span>
+              </a></li>
+            <li><a href="#galeria" style="color: white; text-decoration: none; font-weight: 500; position: relative; padding-bottom: 5px;">
+              Galeria <span style="position: absolute; bottom: 0; left: 0; width: 0%; height: 2px; background: white; transition: width 0.3s;"></span>
+              </a></li>
+            <li><a href="#teste" style="color: white; text-decoration: none; font-weight: 500; position: relative; padding-bottom: 5px;">
+              Seu Estilo <span style="position: absolute; bottom: 0; left: 0; width: 0%; height: 2px; background: white; transition: width 0.3s;"></span>
+              </a></li>
+            <li><a href="#trancistas" style="color: white; text-decoration: none; font-weight: 500; position: relative; padding-bottom: 5px;">
+              Trançistas <span style="position: absolute; bottom: 0; left: 0; width: 0%; height: 2px; background: white; transition: width 0.3s;"></span>
+              </a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+      <!-- Seção Hero - Destaque -->
+<section id="inicio" class="hero" style="
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://i.postimg.cc/Y2zjkNhD/capa-site.jpg') center/cover no-repeat;
+    padding: 5rem 1rem;
+    text-align: center;
+    color: #FFF;
+    position: relative;
+    height: 60vh;
+    max-height: 600px;
+    min-height: 400px; /* Altura mínima para dispositivos pequenos */
+">
+          <h2 style="font-family: 'Poppins', sans-serif; font-size: 2.5rem; margin-bottom: 1rem;">
+            🪮 Bem-vindos ao Universo das Tranças
+          </h2>
+          <p style="font-size: 1.2rem; margin-bottom: 2rem;">
+            "Cada trança conta uma história - qual será a sua?"
+          </p>
+          <a href="#galeria" class="botao" style="background: #E8A87C; color: white; padding: 12px 30px; border-radius: 50px; text-decoration: none; font-weight: bold; display: inline-block; transition: transform 0.3s;">
+            Explore Nossa Galeria de Arte Capilar →
+          </a>
+        </div>
+      </section>
+
+      <!-- Seção Inspirações - Estilos Culturais -->
+      <section id="sobre" class="sobre" style="padding: 4rem 1rem; background: #F7F0EA;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+          <h2 style="text-align: center; font-family: 'Montserrat', sans-serif; color: #5E2A2A; font-size: 2rem; margin-bottom: 3rem;">
+            <span style="display: inline-block; transform: rotate(-10deg);">✊🏿</span> 
+            Inspirações Ancestrais 
+            <span style="display: inline-block; transform: rotate(10deg);">✊🏿</span>
+          </h2>
+          
+          <article style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+            <h3 style="color: #E8A87C; font-size: 1.8rem; border-bottom: 2px dashed #E8A87C; padding-bottom: 0.5rem;">
+              Jornada Pelos Estilos de Braids
+            </h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem;">
+              <!-- Card 1 -->
+              <div style="background: #FFF9F5; padding: 1.5rem; border-radius: 8px; border-top: 4px solid #5E2A2A;">
+                <h4 style="color: #5E2A2A;">Tranças Nagô</h4>
+                <p>Padrões intrincados que homenageiam as origens iorubás</p>
+              </div>
+              <!-- Card 2 -->
+              <div style="background: #FFF9F5; padding: 1.5rem; border-radius: 8px; border-top: 4px solid #E8A87C;">
+                <h4 style="color: #5E2A2A;">Box Braids</h4>
+                <p>Versáteis e modernas, com raízes na cultura Rasta</p>
+              </div>
+              <!-- Card 3 -->
+              <div style="background: #FFF9F5; padding: 1.5rem; border-radius: 8px; border-top: 4px solid #5E2A2A;">
+                <h4 style="color: #5E2A2A;">Fulani Braids</h4>
+                <p>Estilo étnico com contas que celebram o povo Fulani</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Seção de Inspirações com Frases -->
+      <section id="inspiracoes" class="inspiracoes" style="background: #FFF5F0; padding: 4rem 1rem;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+          <h2 style="font-family: 'Playfair Display', serif; color: #5E2A2A; text-align: center; font-size: 2.5rem; margin-bottom: 3rem;">
+            <span style="color: #E8A87C;">✧</span> Estilo em Cada Trança <span style="color: #E8A87C;">✧</span>
+          </h2>
+
+          <div class="grade-inspiracoes" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+            <!-- Artigo 1 - Tradição -->
+            <article style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(94, 42, 42, 0.1); border-top: 4px solid #5E2A2A;">
+              <h3 style="font-family: 'Montserrat', sans-serif; color: #E8A87C; font-size: 1.5rem; margin-bottom: 1rem;">
+                "Onde Tradição Vira Trança"
+              </h3>
+              <p style="font-family: 'Poppins', sans-serif; color: #333; line-height: 1.6; font-style: italic;">
+                Cada fio entrelaçado carrega séculos de sabedoria ancestral, transformando herança cultural em beleza contemporânea.
+              </p>
+            </article>
+
+            <!-- Artigo 2 - Conexão -->
+            <article style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(94, 42, 42, 0.1); border-top: 4px solid #E8A87C;">
+              <h3 style="font-family: 'Montserrat', sans-serif; color: #5E2A2A; font-size: 1.5rem; margin-bottom: 1rem;">
+                "Conexão Através dos Cachos"
+              </h3>
+              <p style="font-family: 'Poppins', sans-serif; color: #333; line-height: 1.6; font-style: italic;">
+                Conecte-se com trancistas que entendem a linguagem dos seus fios e a história que eles contam.
+              </p>
+              <a href="#trancistas" style="display: inline-block; margin-top: 1rem; color: #E8A87C; font-weight: 500; text-decoration: none;">
+                Encontre trancistas perto de você →
+              </a>
+            </article>
+
+            <!-- Artigo 3 - Transformação -->
+            <article style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(94, 42, 42, 0.1); border-top: 4px solid #5E2A2A;">
+              <h3 style="font-family: 'Montserrat', sans-serif; color: #E8A87C; font-size: 1.5rem; margin-bottom: 1rem;">
+                "Técnicas que Transformam"
+              </h3>
+              <p style="font-family: 'Poppins', sans-serif; color: #333; line-height: 1.6; font-style: italic;">
+                Da arte Nagô às inovações modernas, cada trança é uma revolução de autoexpressão e empoderamento.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção Galeria -->
+      <section id="galeria" style="padding: 4rem 1rem; background: white;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+          <h2 style="text-align: center; font-family: 'Playfair Display', serif; color: #5E2A2A; font-size: 2.5rem; margin-bottom: 3rem;">
+            <span style="color: #E8A87C;">✧</span> Galeria de Estilos <span style="color: #E8A87C;">✧</span>
+          </h2>
+          
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem;">
+            <!-- Item 1 -->
+            <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+              <img src="https://i.postimg.cc/TYs0H14Y/box-braids.jpg" alt="Tranças Box Braids" style="width: 100%; height: 300px; object-fit: cover;">
+              <div style="padding: 1.5rem;">
+                <h3 style="color: #5E2A2A; margin-top: 0;">Box Braids</h3>
+                <p style="color: #666;">Tranças individuais versáteis que podem ser estilizadas de diversas formas</p>
+              </div>
+            </div>
+            
+            <!-- Item 2 -->
+            <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+              <img src="https://i.postimg.cc/bw6VxP71/French-Curl.jpg" alt="Tranças Box Braids" style="width: 100%; height: 300px; object-fit: cover;">
+              <div style="padding: 1.5rem;">
+                <h3 style="color: #5E2A2A; margin-top: 0;">French Curl</h3>
+                <p style="color: #666;">As tranças francesas são um penteado protetor que envolve tranças finas com pontas onduladas. Elas podem ser feitas com cabelo sintético ou jumbo</p>
+              </div>
+            </div>
+            
+            <!-- Item 3 -->
+            <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+              <img src="https://i.postimg.cc/hvp4sHDN/nago.jpg" alt="Tranças Nagô" style="width: 100%; height: 300px; object-fit: cover;">
+              <div style="padding: 1.5rem;">
+                <h3 style="color: #5E2A2A; margin-top: 0;">Tranças Nagô</h3>
+                <p style="color: #666;">Padrões geométricos que contam histórias ancestrais</p>
+              </div>
+            </div>
+            
+            <!-- Item 4 -->
+            <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+              <img src="https://i.postimg.cc/mk4Hzfk9/fulani-braids-2.jpg" alt="Tranças Fulani" style="width: 100%; height: 300px; object-fit: cover;">
+              <div style="padding: 1.5rem;">
+                <h3 style="color: #5E2A2A; margin-top: 0;">Fulani Braids</h3>
+                <p style="color: #666;">Estilo tradicional com padrões únicos e adornos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção Teste Capilar -->
+      <section id="teste" style="padding: 4rem 1rem; background: #F7F0EA; text-align: center;">
+        <div style="max-width: 800px; margin: 0 auto;">
+          <h2 style="font-family: 'Montserrat', sans-serif; color: #5E2A2A; font-size: 2rem; margin-bottom: 1rem;">
+            <span style="color: #E8A87C;">✧</span> Descubra Seu Estilo Ideal <span style="color: #E8A87C;">✧</span>
+          </h2>
+          <p style="font-size: 1.1rem; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+            Descubra seu padrão de cachos e as tranças que melhor celebram sua textura natural.
+          </p>
+          <button id="iniciar-teste" style="background: #5E2A2A; color: white; border: none; padding: 12px 30px; border-radius: 50px; font-weight: bold; cursor: pointer; font-size: 1rem;">
+            Fazer Teste Capilar
+          </button>
+        </div>
+      </section>
+
+      <!-- Seção Completa do Teste Capilar (hidden inicialmente) -->
+      <section id="teste-capilar" style="background: #F7F0EA; padding: 4rem 1rem; display: none;">
+        <div style="max-width: 600px; margin: 0 auto; background: white; padding: 2rem; border-radius: 16px; box-shadow: 0 8px 25px rgba(94, 42, 42, 0.1);">
+          <!-- Cabeçalho do Teste -->
+          <div style="text-align: center; margin-bottom: 2rem;">
+            <h3 style="font-family: 'Playfair Display', serif; color: #5E2A2A; font-size: 1.8rem;">
+              <span style="color: #E8A87C;">✧</span> Descubra Seu DNA Capilar <span style="color: #E8A87C;">✧</span>
+            </h3>
+            <p style="font-family: 'Poppins'; color: #666;">Responda 3 perguntas e receba recomendações personalizadas</p>
+            <div style="height: 4px; background: #F0F0F0; margin: 1rem 0; border-radius: 2px;">
+              <div id="progresso-teste" style="height: 100%; width: 0%; background: #E8A87C; border-radius: 2px;"></div>
+            </div>
+          </div>
+
+          <!-- Formulário do Teste -->
+          <form id="form-teste" style="font-family: 'Poppins';">
+            <!-- Pergunta 1 -->
+            <div class="pergunta" data-pergunta="1" style="display: block;">
+              <p style="font-weight: 500; color: #5E2A2A; margin-bottom: 1rem;">1. Quando seu cabelo está seco, ele se parece mais com:</p>
+              <div style="display: grid; gap: 1rem;">
+                <label style="display: flex; align-items: center; padding: 1rem; background: #FFF9F5; border-radius: 8px; cursor: pointer;">
+                  <input type="radio" name="q1" value="3A" style="margin-right: 1rem;">
+                  <span>Fios soltos com cachos bem definidos (tipo mola)</span>
+                </label>
+                <label style="display: flex; align-items: center; padding: 1rem; background: #FFF9F5; border-radius: 8px; cursor: pointer;">
+                  <input type="radio" name="q1" value="4C">
+                  <span>Zigue-zague apertado (padrão "S" bem fechado)</span>
+                </label>
+                <label style="display: flex; align-items: center; padding: 1rem; background: #FFF9F5; border-radius: 8px; cursor: pointer;">
+                  <input type="radio" name="q1" value="Afro">
+                  <span>Volume denso com textura algodoada</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Pergunta 2 (hidden inicialmente) -->
+            <div class="pergunta" data-pergunta="2" style="display: none;">
+              <p style="font-weight: 500; color: #5E2A2A; margin-bottom: 1rem;">2. Quando você puxa um fio, ele:</p>
+              <div style="display: grid; gap: 1rem;">
+                <label style="display: flex; align-items: center; padding: 1rem; background: #FFF9F5; border-radius: 8px; cursor: pointer;">
+                  <input type="radio" name="q2" value="3A" style="margin-right: 1rem;">
+                  <span>Estica bastante antes de arrebentar</span>
+                </label>
+                <label style="display: flex; align-items: center; padding: 1rem; background: #FFF9F5; border-radius: 8px; cursor: pointer;">
+                  <input type="radio" name="q2" value="4C">
+                  <span>Volta rápido ao formato original</span>
+                </label>
+                <label style="display: flex; align-items: center; padding: 1rem; background: #FFF9F5; border-radius: 8px; cursor: pointer;">
+                  <input type="radio" name="q2" value="Afro">
+                  <span>Quase não estica, é bem firme</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Pergunta 3 (hidden inicialmente) -->
+            <div class="pergunta" data-pergunta="3" style="display: none;">
+              <p style="font-weight: 500; color: #5E2A2A; margin-bottom: 1rem;">3. Seu cabelo tem tendência a:</p>
+              <div style="display: grid; gap: 1rem;">
+                <label style="display: flex; align-items: center; padding: 1rem; background: #FFF9F5; border-radius: 8px; cursor: pointer;">
+                  <input type="radio" name="q3" value="3A" style="margin-right: 1rem;">
+                  <span>Frizz moderado em dias úmidos</span>
+                </label>
+                <label style="display: flex; align-items: center; padding: 1rem; background: #FFF9F5; border-radius: 8px; cursor: pointer;">
+                  <input type="radio" name="q3" value="4C">
+                  <span>Ressecamento frequente</span>
+                </label>
+                <label style="display: flex; align-items: center; padding: 1rem; background: #FFF9F5; border-radius: 8px; cursor: pointer;">
+                  <input type="radio" name="q3" value="Afro">
+                  <span>Quebra fácil se não hidratado</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Navegação do Teste -->
+            <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+              <button type="button" id="btn-voltar" style="background: none; border: 1px solid #E8A87C; color: #E8A87C; padding: 8px 16px; border-radius: 50px; display: none;">← Voltar</button>
+              <button type="button" id="btn-proximo" style="background: #5E2A2A; color: white; border: none; padding: 8px 24px; border-radius: 50px;">Próxima →</button>
+            </div>
+          </form>
+
+          <!-- Resultado (hidden inicialmente) -->
+          <div id="resultado-teste" style="display: none; text-align: center; padding: 1rem;">
+            <div id="resultado-imagem" style="width: 150px; height: 150px; margin: 0 auto 1rem; border-radius: 50%; overflow: hidden;">
+              <!-- Imagem será inserida via JS -->
+            </div>
+            <h4 id="resultado-titulo" style="font-family: 'Montserrat'; color: #5E2A2A; font-size: 1.5rem;"></h4>
+            <p id="resultado-descricao" style="color: #666; margin-bottom: 1.5rem;"></p>
+            <div id="resultado-trancas" style="background: #FFF9F5; padding: 1rem; border-radius: 8px; margin-bottom: 1.5rem;">
+              <h5 style="color: #E8A87C; margin-top: 0;">Tranças Recomendadas:</h5>
+              <p id="trancas-ideais" style="font-weight: 500;"></p>
+            </div>
+            <a href="#trancistas" style="background: #E8A87C; color: white; padding: 10px 20px; border-radius: 50px; text-decoration: none; display: inline-block; margin-top: 1rem;">Encontrar Trançistas</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção Indique Trançista -->
+      <section id="trancistas" style="padding: 4rem 1rem; background: white;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+          <h2 style="text-align: center; font-family: 'Playfair Display', serif; color: #5E2A2A; font-size: 2.5rem; margin-bottom: 3rem;">
+            <span style="color: #E8A87C;">✧</span> Rede de Trançistas <span style="color: #E8A87C;">✧</span>
+          </h2>
+          
+          <div class="indique-trancista-section" style="background: #F7F0EA; padding: 2rem; border-radius: 16px; text-align: center;">
+            <div style="max-width: 600px; margin: 0 auto;">
+              <div style="font-size: 3rem; margin-bottom: 1rem;">🌍✨</div>
+              <h2 style="color: #5E2A2A; font-family: 'Poppins', sans-serif; margin-bottom: 0.5rem;">
+                Fortaleça Sua Comunidade Trançada
+              </h2>
+              <p style="color: #333; font-size: 1.1rem; margin-bottom: 1.5rem;">
+                Indique talentos locais e ajude outras pessoas a encontrarem a trançista perfeita!
+              </p>
+              <button id="btn-indicar" style="background: #E8A87C; color: white; border: none; padding: 12px 24px; 
+                     border-radius: 50px; font-weight: bold; cursor: pointer; transition: 0.3s;">
+                <span style="margin-right: 8px;">✋🏾</span> Indicar uma Trançista
+              </button>
+              <p style="color: #666; font-size: 0.9rem; margin-top: 1.5rem;">
+                Sua indicação ajuda profissionais a crescerem e clientes a descobrirem talentos incríveis!
+              </p>
+            </div>
+          </div>
+          
+          <!-- Formulário de Indicação (hidden inicialmente) -->
+          <div id="form-indicacao" style="display: none; max-width: 600px; margin: 2rem auto; background: white; padding: 2rem; border-radius: 16px; box-shadow: 0 8px 25px rgba(94, 42, 42, 0.1);">
+            <h3 style="color: #5E2A2A; font-family: 'Montserrat'; text-align: center; margin-top: 0;">Indicar Trançista</h3>
+            <form>
+              <div style="margin-bottom: 1.5rem;">
+                <label style="display: block; margin-bottom: 0.5rem; color: #5E2A2A; font-weight: 500;">Nome da Trançista</label>
+                <input type="text" style="width: 100%; padding: 10px; border: 1px solid #E8A87C; border-radius: 8px;">
+              </div>
+              <div style="margin-bottom: 1.5rem;">
+                <label style="display: block; margin-bottom: 0.5rem; color: #5E2A2A; font-weight: 500;">Cidade/Estado</label>
+                <input type="text" style="width: 100%; padding: 10px; border: 1px solid #E8A87C; border-radius: 8px;">
+              </div>
+              <div style="margin-bottom: 1.5rem;">
+                <label style="display: block; margin-bottom: 0.5rem; color: #5E2A2A; font-weight: 500;">Contato (Instagram ou WhatsApp)</label>
+                <input type="text" style="width: 100%; padding: 10px; border: 1px solid #E8A87C; border-radius: 8px;">
+              </div>
+              <div style="display: flex; justify-content: center; gap: 1rem;">
+                <button type="button" id="cancelar-indicacao" style="background: none; border: 1px solid #5E2A2A; color: #5E2A2A; padding: 10px 20px; border-radius: 50px;">Cancelar</button>
+                <button type="submit" style="background: #5E2A2A; color: white; border: none; padding: 10px 20px; border-radius: 50px;">Enviar Indicação</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer style="background: #5E2A2A; color: white; padding: 3rem 1rem; text-align: center;">
+      <div style="max-width: 1200px; margin: 0 auto;">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <h2 style="font-family: 'Montserrat', sans-serif; margin-bottom: 1.5rem;">New Braids</h2>
+          <p style="max-width: 600px; margin-bottom: 2rem;">
+            Celebrando a arte ancestral das tranças e conectando clientes a profissionais talentosos.
+          </p>
+          <div style="display: flex; gap: 1.5rem; margin-bottom: 2rem;">
+            <a href="#" style="color: white; font-size: 1.5rem;">📱</a>
+            <a href="#" style="color: white; font-size: 1.5rem;">📸</a>
+            <a href="#" style="color: white; font-size: 1.5rem;">🔍</a>
+          </div>
+          <p style="font-size: 0.9rem; opacity: 0.8;">
+            © 2023 New Braids - Todos os direitos reservados
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Controle do teste capilar
+      document.addEventListener('DOMContentLoaded', function() {
+        const btnIniciarTeste = document.getElementById('iniciar-teste');
+        const secaoTeste = document.getElementById('teste-capilar');
+        const btnProximo = document.getElementById('btn-proximo');
+        const btnVoltar = document.getElementById('btn-voltar');
+        const progresso = document.getElementById('progresso-teste');
+        const perguntas = document.querySelectorAll('.pergunta');
+        const formTeste = document.getElementById('form-teste');
+        const resultadoTeste = document.getElementById('resultado-teste');
+        let perguntaAtual = 1;
+        
+        // Resultados possíveis
+        const resultados = {
+          '3A': {
+            titulo: 'Tipo 3A - Cachos Definidos',
+            descricao: 'Seus cachos bem formados permitem diversos estilos de tranças que valorizam o movimento natural.',
+            trancas: 'Box braids, Tranças soltas, Twist braids, Tranças com raiz solta'
+          },
+          '4C': {
+            titulo: 'Tipo 4C - Textura Afro',
+            descricao: 'Sua textura densa e volumosa é perfeita para tranças protetoras e estilos duráveis.',
+            trancas: 'Tranças nagô, Micro braids, Tranças fulani, Cornrows criativos'
+          },
+          'Afro': {
+            titulo: 'Textura Afro Forte',
+            descricao: 'Seu cabelo resistente e cheio de personalidade pede por tranças que celebrem sua essência.',
+            trancas: 'Tranças grossas, Tranças com adornos, Estilos étnicos, Tranças protetoras'
+          }
+        };
+        
+        // Iniciar teste
+        btnIniciarTeste.addEventListener('click', function() {
+          document.getElementById('teste').scrollIntoView({behavior: 'smooth'});
+          secaoTeste.style.display = 'block';
+        });
+        
+        // Avançar no teste
+        btnProximo.addEventListener('click', function() {
+          if (perguntaAtual < 3) {
+            document.querySelector(`[data-pergunta="${perguntaAtual}"]`).style.display = 'none';
+            perguntaAtual++;
+            document.querySelector(`[data-pergunta="${perguntaAtual}"]`).style.display = 'block';
+            progresso.style.width = `${(perguntaAtual / 3) * 100}%`;
+            btnVoltar.style.display = 'block';
+            
+            if (perguntaAtual === 3) {
+              btnProximo.textContent = 'Ver Resultado';
+            }
+          } else {
+            // Calcular resultado
+            const respostas = new FormData(formTeste);
+            let tipoCabelo = '';
+            
+            // Lógica simples para determinar o tipo de cabelo
+            const valores = Array.from(respostas.values());
+            const contagem = {};
+            
+            valores.forEach(valor => {
+              contagem[valor] = (contagem[valor] || 0) + 1;
+            });
+            
+            // Determinar o tipo mais frequente
+            let maxContagem = 0;
+            for (const [tipo, count] of Object.entries(contagem)) {
+              if (count > maxContagem) {
+                maxContagem = count;
+                tipoCabelo = tipo;
+              }
+            }
+            
+            // Se empate, priorizar 4C
+            if (maxContagem === 1 && valores.includes('4C')) {
+              tipoCabelo = '4C';
+            } else if (maxContagem === 1) {
+              tipoCabelo = 'Afro'; // Default
+            }
+            
+            // Mostrar resultado
+            formTeste.style.display = 'none';
+            resultadoTeste.style.display = 'block';
+            
+            // Preencher resultado
+            const resultado = resultados[tipoCabelo] || resultados['Afro'];
+            document.getElementById('resultado-titulo').textContent = resultado.titulo;
+            document.getElementById('resultado-descricao').textContent = resultado.descricao;
+            document.getElementById('trancas-ideais').textContent = resultado.trancas;
+            
+            // Adicionar imagem (simulado)
+            const imgContainer = document.getElementById('resultado-imagem');
+            imgContainer.style.background = '#E8A87C';
+            imgContainer.innerHTML = `<div style="display: flex; justify-content: center; align-items: center; height: 100%; font-size: 3rem;">${tipoCabelo === '3A' ? '🌀' : tipoCabelo === '4C' ? '✊🏾' : '👑'}</div>`;
+          }
+        });
+        
+        // Voltar no teste
+        btnVoltar.addEventListener('click', function() {
+          document.querySelector(`[data-pergunta="${perguntaAtual}"]`).style.display = 'none';
+          perguntaAtual--;
+          document.querySelector(`[data-pergunta="${perguntaAtual}"]`).style.display = 'block';
+          progresso.style.width = `${(perguntaAtual / 3) * 100}%`;
+          btnProximo.textContent = 'Próxima →';
+          
+          if (perguntaAtual === 1) {
+            btnVoltar.style.display = 'none';
+          }
+        });
+        
+        // Controle do formulário de indicação
+        const btnIndicar = document.getElementById('btn-indicar');
+        const formIndicacao = document.getElementById('form-indicacao');
+        const btnCancelar = document.getElementById('cancelar-indicacao');
+        
+        btnIndicar.addEventListener('click', function() {
+          this.style.display = 'none';
+          formIndicacao.style.display = 'block';
+          formIndicacao.scrollIntoView({behavior: 'smooth'});
+        });
+        
+        btnCancelar.addEventListener('click', function() {
+          formIndicacao.style.display = 'none';
+          btnIndicar.style.display = 'inline-block';
+        });
+        
+        // Envio do formulário (simulado)
+        formIndicacao.querySelector('form').addEventListener('submit', function(e) {
+          e.preventDefault();
+          alert('Obrigado por indicar uma trançista! Sua contribuição ajuda a fortalecer a comunidade.');
+          formIndicacao.style.display = 'none';
+          btnIndicar.style.display = 'inline-block';
+          this.reset();
+        });
+      });
+    </script>
+</body>
+</html>
